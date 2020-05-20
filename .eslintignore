@@ -1,0 +1,7 @@
+/.git
+/.vscode
+/dist
+
+.eslintrc.js
+prettier.config.js
+webpack.config.js

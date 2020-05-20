@@ -1,0 +1,50 @@
+{
+  "name": "dwp-test",
+  "version": "1.0.0",
+  "description": "Front End Developer Test for completion (DWP)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "",
+    "re-install": "rm -rf node_modules dist package-lock.json && npm i && npm audit fix",
+    "prettier": "prettier --write public/src/**/*.js",
+    "lint": "eslint --debug public/src/",
+    "lint:fix": "eslint --debug public/src/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurynasmaciulis/dwp-test.git"
+  },
+  "author": "Laurynas Maciulis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "bugs": {
+    "url": "https://github.com/laurynasmaciulis/dwp-test/issues"
+  },
+  "homepage": "https://github.com/laurynasmaciulis/dwp-test#readme"
+}
