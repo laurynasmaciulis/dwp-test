@@ -20,17 +20,13 @@
       <label for="dob-date">Date of Birth</label> 
       <input type="date" id="dob-date" class="input" name="dob-date"> 
 
-      <div>
-          <a id="accordion" href="#feedbackForm" aria-expanded="true" aria-controls="feedbackForm">
-              <span id="icon-expanded" class="hidden" aria-hidden="true">&#9654;</span>
-              <span id="icon-collapsed" aria-hidden="true">&#9660;</span>
+      <div class="accordion">
+          <a class="expanded" href="#accordion-content" aria-expanded="true" aria-controls="accordion-content">
               Could we improve this page?
           </a>
-          <div id="feedbackForm" aria-expanded="true">
-            <div class="content">
-              <label for="feedback">Add feedback</label> 
-              <textarea id="feedback" class="input" name="feedback" rows="4" cols="50"></textarea>
-            </div>
+          <div id="accordion-content">
+            <label for="feedback">Add feedback</label> 
+            <textarea id="feedback" class="input" name="feedback" rows="4" cols="50"></textarea>
           </div>
       </div>
       <button type="submit" id="continue" class="button">Submit</button> 

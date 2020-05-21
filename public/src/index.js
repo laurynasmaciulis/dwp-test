@@ -1,18 +1,7 @@
 import './styles.scss';
-import {expand, collapse} from './accordion';
+import Accordion from './Accordion';
 
 document.addEventListener('DOMContentLoaded', () => {
-  collapse();
-
-  document.querySelector('#accordion').addEventListener('click', (event) => {
-    const isExpanded = document.querySelector('#icon-expanded').classList.contains('hidden');
-
-    if(isExpanded) {
-      collapse();
-    } else {
-      expand();
-    }
-
-    event.preventDefault();
-  })
+  // eslint-disable-next-line no-unused-vars
+  const accordion = new Accordion({elementSelector: '.accordion'});
 });
