@@ -1,7 +1,9 @@
 /.git
 /.vscode
 /dist
+/tests
 
 .eslintrc.js
 prettier.config.js
 webpack.config.js
+karma.conf.js

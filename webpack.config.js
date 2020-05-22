@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './public/src/index.js',
+  entry: './src/index.js',
 
   devServer: {
     contentBase: './public',
